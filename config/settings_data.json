@@ -1,16 +1,16 @@
 {
   "current": {
     "color_header_bg": "#030303",
-    "color_header_links": "#fff",
+    "color_header_links": "#ffffff",
     "color_body_bg": "#f7f7f7",
-    "color_content_bg": "#fff",
+    "color_content_bg": "#ffffff",
     "color_body_headings": "#030303",
-    "color_body_text": "#666",
+    "color_body_text": "#666666",
     "color_button_bg": "#006eff",
-    "color_button_text": "#fff",
+    "color_button_text": "#ffffff",
     "color_footer_bg": "#030303",
-    "color_footer_text": "#fff",
-    "color_hero_text": "#fff",
+    "color_footer_text": "#ffffff",
+    "color_hero_text": "#ffffff",
     "color_hero_bg": "#006eff",
     "type_accent_family": "unica_one_n4",
     "type_accent_spacing": true,
@@ -19,7 +19,7 @@
     "type_base_size": "16px",
     "type_nav_size": "14px",
     "type_nav_spacing": true,
-    "type_nav_transform": true,
+    "type_nav_transform": false,
     "product_images_padding": true,
     "product_vendor_enable": false,
     "social_facebook_link": "",
@@ -33,7 +33,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "shopify:\/\/shop_images\/29AA3827-E804-4FBB-ACCD-565939A5FAC1.jpg",
+    "favicon": "shopify:\/\/shop_images\/odd-owl-amazon-products-sale.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -94,8 +94,8 @@
         ],
         "settings": {
           "hero_home_height": "small",
-          "hero_home_auto": false,
-          "hero_home_auto_speed": 5
+          "hero_home_auto": true,
+          "hero_home_auto_speed": 9
         }
       },
       "footer": {
@@ -133,12 +133,6 @@
       "featured-collections": {
         "type": "featured-collections",
         "blocks": {
-          "featured-collections-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "electronics"
-            }
-          },
           "featured-collections-1": {
             "type": "collection",
             "settings": {
@@ -153,7 +147,6 @@
           }
         },
         "block_order": [
-          "featured-collections-0",
           "featured-collections-1",
           "featured-collections-2"
         ],
@@ -186,7 +179,6 @@
       }
     },
     "content_for_index": [
-      "slideshow",
       "featured-collections",
       "1603484839305",
       "1603484913039"
