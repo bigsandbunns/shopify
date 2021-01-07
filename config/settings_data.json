@@ -133,6 +133,12 @@
       "featured-collections": {
         "type": "featured-collections",
         "blocks": {
+          "c04224b7-b1b1-4d0c-a01d-08e6c97a7803": {
+            "type": "collection",
+            "settings": {
+              "collection": "top-selling-items"
+            }
+          },
           "featured-collections-1": {
             "type": "collection",
             "settings": {
@@ -147,6 +153,7 @@
           }
         },
         "block_order": [
+          "c04224b7-b1b1-4d0c-a01d-08e6c97a7803",
           "featured-collections-1",
           "featured-collections-2"
         ],
@@ -157,8 +164,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/29AA3827-E804-4FBB-ACCD-565939A5FAC1.jpg",
-          "logo_max_width": "150",
+          "logo": "shopify:\/\/shop_images\/odd-owl-black_with_white_background.png",
+          "logo_max_width": "250",
           "main_linklist": "main-menu",
           "promo_bar_enable": false,
           "promo_bar_text": ""
@@ -167,15 +174,15 @@
       "1603484839305": {
         "type": "featured-products",
         "settings": {
-          "collection": "baby",
+          "collection": "women",
           "rows": 2
         }
       },
       "1603484913039": {
         "type": "featured-products",
         "settings": {
-          "collection": "men",
-          "rows": 2
+          "collection": "top-selling-items",
+          "rows": 1
         }
       }
     },
