@@ -1,7 +1,7 @@
 {
   "current": {
-    "color_header_bg": "#030303",
-    "color_header_links": "#ffffff",
+    "color_header_bg": "#ffffff",
+    "color_header_links": "#000000",
     "color_body_bg": "#f7f7f7",
     "color_content_bg": "#ffffff",
     "color_body_headings": "#030303",
@@ -157,7 +157,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_max_width": "450",
+          "logo": "shopify:\/\/shop_images\/29AA3827-E804-4FBB-ACCD-565939A5FAC1.jpg",
+          "logo_max_width": "150",
           "main_linklist": "main-menu",
           "promo_bar_enable": false,
           "promo_bar_text": ""
